@@ -36,7 +36,7 @@ An e-commerce web application that provides a seamless online shopping experienc
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/tajir-shop.git
+git clone https://github.com/tajirdev/tajir-shop.git
 
 # Navigate to project directory
 cd tajir-shop
