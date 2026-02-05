@@ -1,0 +1,138 @@
+/* Checkout Layout */
+.checkOut-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+/* Cart Summary */
+.cart-summary {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.cart-summary h2 {
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.summary-item img {
+  width: 100%;
+  max-width: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.summary-info h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+
+
+.summary-info .price {
+  font-weight: bold;
+  color: #e0a800;
+}
+
+.summary-total {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: right;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Order Form */
+.order-form {
+  flex: 1;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.order-form h2 {
+  margin-bottom: 20px;
+  color: #0d6efd;
+}
+
+.order-form .label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  margin-top: 15px;
+}
+
+.order-form input,
+.order-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.payment-options {
+  margin: 15px 0;
+}
+
+.payment-options label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+/* Place Order Button */
+.checkout-btn {
+  width: 100%;
+  background: #0d6efd;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkout-btn:hover {
+  background: #0b5ed7;
+  transition: 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .checkOut-section {
+    display: block;
+  }
+  .order-form {
+    margin-top: 50px;
+  }
+}
